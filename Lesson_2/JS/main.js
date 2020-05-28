@@ -16,4 +16,4 @@ let numForMod_2 = parseInt(prompt("Please input a number"));
 console.log(`Remainder of the division by 2: ${numForMod_2 % 2}`);
 
 let floatNum = parseFloat(prompt("Please input a number"));
-console.log(`Integer part = ${Math.trunc(floatNum)}, fractional part = ${floatNum2 % 1}`);
+console.log(`Integer part = ${Math.trunc(floatNum)}, fractional part = ${floatNum % 1}`);
